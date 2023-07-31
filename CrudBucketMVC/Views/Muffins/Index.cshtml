@@ -1,0 +1,9 @@
+﻿@model List<Muffin>
+
+<h1>Muffins</h1>
+
+@foreach (var muffin in Model)
+{
+    <p>@muffin.Flavor: @muffin.Quantity, gluten free? @muffin.IsGlutenFree</p>
+
+}
